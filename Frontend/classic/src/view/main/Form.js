@@ -22,13 +22,14 @@ Ext.define('ChallengeApp.view.Form', {
     ],
     buttons:[ {
         text: 'Submit Form',
-        handler: function () {
-            // console.log(this.up('form').getForm().getValues());
-            var formValues = this.up('form').getForm().getValues();
-            // Ext.Ajax.request()
+        itemId: 'submitButton',
+        // controller: {
+        //     type: 'form',
+        // },
 
-            ChallengeApp.app.getController('form').config.control.submitForm('DS');
-            this.fireEvent('submitForm', formValues);
+        handler: function () {
+            var formValues = this.up('form').getForm().getValues();
+            this.fireEvent('submitForm', this, formValues);
         }
     }]
 })

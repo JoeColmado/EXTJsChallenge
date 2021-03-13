@@ -16,6 +16,7 @@ Ext.define('ChallengeApp.view.main.Main', {
         'ChallengeApp.view.main.MainController',
         'ChallengeApp.view.main.MainModel',
         'ChallengeApp.view.main.List',
+        'ChallengeApp.view.Home',
         // 'ChallengeApp.view.main.Form',
     ],
 
@@ -80,16 +81,15 @@ Ext.define('ChallengeApp.view.main.Main', {
         iconCls: 'fa-home',
         // The following grid shares a store with the classic version's grid as well!
         items: [{
-            xtype: 'mainlist',
+           xtype: 'Home',
+       }]
+    },
 
-        },
-
-        ]
-    }, {
+    {
         title: 'Users',
         iconCls: 'fa-user',
         items: [{
-            xtype:'DBList',
+            xtype: 'mainlist',
         }]
     }, {
         title: 'Form',
@@ -100,8 +100,5 @@ Ext.define('ChallengeApp.view.main.Main', {
     }, {
         title: 'Settings',
         iconCls: 'fa-cog',
-        bind: {
-            html: '{loremIpsum}'
-        }
     }]
 });

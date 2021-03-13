@@ -30,22 +30,22 @@ Ext.define('ChallengeApp.view.main.Main', {
             iconCls: 'x-fa fa-home',
             layout: 'fit',
             // The following grid shares a store with the classic version's grid as well!
-            items: [{
-                xtype: 'mainlist'
-            }]
-        },{
+            bind: {
+                html: '{loremIpsum}'
+            }
+        }, {
             title: 'Users',
             iconCls: 'x-fa fa-user',
-            bind: {
-                html: '{loremIpsum}'
-            }
-        },{
+            items: [{
+                xtype: 'button'
+            }]
+        }, {
             title: 'Groups',
             iconCls: 'x-fa fa-users',
-            bind: {
-                html: '{loremIpsum}'
-            }
-        },{
+            items: [{
+                xtype: 'button'
+            }]
+        }, {
             title: 'Settings',
             iconCls: 'x-fa fa-cog',
             bind: {
