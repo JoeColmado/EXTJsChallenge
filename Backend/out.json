@@ -1,0 +1,1108 @@
+[
+    {
+        "EMPLOYEE_ID": 1,
+        "FIRST_NAME": "Tommy",
+        "LAST_NAME": "Bailey",
+        "EMAIL": "tommy.bailey@example.com",
+        "PHONE": "515.123.4567",
+        "HIRE_DATE": "17-JUN-16",
+        "MANAGER_ID": null,
+        "JOB_TITLE": "President",
+        "children": [
+            {
+                "EMPLOYEE_ID": 3,
+                "FIRST_NAME": "Blake",
+                "LAST_NAME": "Cooper",
+                "EMAIL": "blake.cooper@example.com",
+                "PHONE": "515.123.4569",
+                "HIRE_DATE": "13-JAN-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Administration Vice President",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 4,
+                        "FIRST_NAME": "Louie",
+                        "LAST_NAME": "Richardson",
+                        "EMAIL": "louie.richardson@example.com",
+                        "PHONE": "590.423.4567",
+                        "HIRE_DATE": "03-JAN-16",
+                        "MANAGER_ID": 3,
+                        "JOB_TITLE": "Programmer",
+                        "children": [
+                            {
+                                "EMPLOYEE_ID": 5,
+                                "FIRST_NAME": "Nathan",
+                                "LAST_NAME": "Cox",
+                                "EMAIL": "nathan.cox@example.com",
+                                "PHONE": "590.423.4568",
+                                "HIRE_DATE": "21-MAY-16",
+                                "MANAGER_ID": 4,
+                                "JOB_TITLE": "Programmer"
+                            },
+                            {
+                                "EMPLOYEE_ID": 8,
+                                "FIRST_NAME": "Bobby",
+                                "LAST_NAME": "Torres",
+                                "EMAIL": "bobby.torres@example.com",
+                                "PHONE": "590.423.5567",
+                                "HIRE_DATE": "07-FEB-16",
+                                "MANAGER_ID": 4,
+                                "JOB_TITLE": "Programmer"
+                            },
+                            {
+                                "EMPLOYEE_ID": 7,
+                                "FIRST_NAME": "Charles",
+                                "LAST_NAME": "Ward",
+                                "EMAIL": "charles.ward@example.com",
+                                "PHONE": "590.423.4560",
+                                "HIRE_DATE": "05-FEB-16",
+                                "MANAGER_ID": 4,
+                                "JOB_TITLE": "Programmer"
+                            },
+                            {
+                                "EMPLOYEE_ID": 6,
+                                "FIRST_NAME": "Gabriel",
+                                "LAST_NAME": "Howard",
+                                "EMAIL": "gabriel.howard@example.com",
+                                "PHONE": "590.423.4569",
+                                "HIRE_DATE": "25-JUN-16",
+                                "MANAGER_ID": 4,
+                                "JOB_TITLE": "Programmer"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 2,
+                "FIRST_NAME": "Jude",
+                "LAST_NAME": "Rivera",
+                "EMAIL": "jude.rivera@example.com",
+                "PHONE": "515.123.4568",
+                "HIRE_DATE": "21-SEP-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Administration Vice President",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 106,
+                        "FIRST_NAME": "Rose",
+                        "LAST_NAME": "Stephens",
+                        "EMAIL": "rose.stephens@example.com",
+                        "PHONE": "515.123.8080",
+                        "HIRE_DATE": "07-JUN-16",
+                        "MANAGER_ID": 2,
+                        "JOB_TITLE": "Accounting Manager",
+                        "children": [
+                            {
+                                "EMPLOYEE_ID": 107,
+                                "FIRST_NAME": "Summer",
+                                "LAST_NAME": "Payne",
+                                "EMAIL": "summer.payne@example.com",
+                                "PHONE": "515.123.8181",
+                                "HIRE_DATE": "07-JUN-16",
+                                "MANAGER_ID": 106,
+                                "JOB_TITLE": "Public Accountant"
+                            }
+                        ]
+                    },
+                    {
+                        "EMPLOYEE_ID": 101,
+                        "FIRST_NAME": "Annabelle",
+                        "LAST_NAME": "Dunn",
+                        "EMAIL": "annabelle.dunn@example.com",
+                        "PHONE": "515.123.4444",
+                        "HIRE_DATE": "17-SEP-16",
+                        "MANAGER_ID": 2,
+                        "JOB_TITLE": "Administration Assistant"
+                    },
+                    {
+                        "EMPLOYEE_ID": 9,
+                        "FIRST_NAME": "Mohammad",
+                        "LAST_NAME": "Peterson",
+                        "EMAIL": "mohammad.peterson@example.com",
+                        "PHONE": "515.124.4569",
+                        "HIRE_DATE": "17-AUG-16",
+                        "MANAGER_ID": 2,
+                        "JOB_TITLE": "Finance Manager",
+                        "children": [
+                            {
+                                "EMPLOYEE_ID": 11,
+                                "FIRST_NAME": "Tyler",
+                                "LAST_NAME": "Ramirez",
+                                "EMAIL": "tyler.ramirez@example.com",
+                                "PHONE": "515.124.4269",
+                                "HIRE_DATE": "28-SEP-16",
+                                "MANAGER_ID": 9,
+                                "JOB_TITLE": "Accountant"
+                            },
+                            {
+                                "EMPLOYEE_ID": 10,
+                                "FIRST_NAME": "Ryan",
+                                "LAST_NAME": "Gray",
+                                "EMAIL": "ryan.gray@example.com",
+                                "PHONE": "515.124.4169",
+                                "HIRE_DATE": "16-AUG-16",
+                                "MANAGER_ID": 9,
+                                "JOB_TITLE": "Accountant"
+                            },
+                            {
+                                "EMPLOYEE_ID": 14,
+                                "FIRST_NAME": "Elliot",
+                                "LAST_NAME": "Brooks",
+                                "EMAIL": "elliot.brooks@example.com",
+                                "PHONE": "515.124.4567",
+                                "HIRE_DATE": "07-DEC-16",
+                                "MANAGER_ID": 9,
+                                "JOB_TITLE": "Accountant"
+                            },
+                            {
+                                "EMPLOYEE_ID": 12,
+                                "FIRST_NAME": "Elliott",
+                                "LAST_NAME": "James",
+                                "EMAIL": "elliott.james@example.com",
+                                "PHONE": "515.124.4369",
+                                "HIRE_DATE": "30-SEP-16",
+                                "MANAGER_ID": 9,
+                                "JOB_TITLE": "Accountant"
+                            },
+                            {
+                                "EMPLOYEE_ID": 13,
+                                "FIRST_NAME": "Albert",
+                                "LAST_NAME": "Watson",
+                                "EMAIL": "albert.watson@example.com",
+                                "PHONE": "515.124.4469",
+                                "HIRE_DATE": "07-MAR-16",
+                                "MANAGER_ID": 9,
+                                "JOB_TITLE": "Accountant"
+                            }
+                        ]
+                    },
+                    {
+                        "EMPLOYEE_ID": 104,
+                        "FIRST_NAME": "Harper",
+                        "LAST_NAME": "Spencer",
+                        "EMAIL": "harper.spencer@example.com",
+                        "PHONE": "515.123.7777",
+                        "HIRE_DATE": "07-JUN-16",
+                        "MANAGER_ID": 2,
+                        "JOB_TITLE": "Human Resources Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 105,
+                        "FIRST_NAME": "Gracie",
+                        "LAST_NAME": "Gardner",
+                        "EMAIL": "gracie.gardner@example.com",
+                        "PHONE": "515.123.8888",
+                        "HIRE_DATE": "07-JUN-16",
+                        "MANAGER_ID": 2,
+                        "JOB_TITLE": "Public Relations Representative"
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 102,
+                "FIRST_NAME": "Emma",
+                "LAST_NAME": "Perkins",
+                "EMAIL": "emma.perkins@example.com",
+                "PHONE": "515.123.5555",
+                "HIRE_DATE": "17-FEB-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Marketing Manager",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 103,
+                        "FIRST_NAME": "Amelie",
+                        "LAST_NAME": "Hudson",
+                        "EMAIL": "amelie.hudson@example.com",
+                        "PHONE": "603.123.6666",
+                        "HIRE_DATE": "17-AUG-16",
+                        "MANAGER_ID": 102,
+                        "JOB_TITLE": "Marketing Representative"
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 15,
+                "FIRST_NAME": "Rory",
+                "LAST_NAME": "Kelly",
+                "EMAIL": "rory.kelly@example.com",
+                "PHONE": "515.127.4561",
+                "HIRE_DATE": "07-DEC-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Purchasing Manager",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 17,
+                        "FIRST_NAME": "Frederick",
+                        "LAST_NAME": "Price",
+                        "EMAIL": "frederick.price@example.com",
+                        "PHONE": "515.127.4563",
+                        "HIRE_DATE": "24-DEC-16",
+                        "MANAGER_ID": 15,
+                        "JOB_TITLE": "Purchasing Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 16,
+                        "FIRST_NAME": "Alex",
+                        "LAST_NAME": "Sanders",
+                        "EMAIL": "alex.sanders@example.com",
+                        "PHONE": "515.127.4562",
+                        "HIRE_DATE": "18-MAY-16",
+                        "MANAGER_ID": 15,
+                        "JOB_TITLE": "Purchasing Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 18,
+                        "FIRST_NAME": "Ollie",
+                        "LAST_NAME": "Bennett",
+                        "EMAIL": "ollie.bennett@example.com",
+                        "PHONE": "515.127.4564",
+                        "HIRE_DATE": "24-JUL-16",
+                        "MANAGER_ID": 15,
+                        "JOB_TITLE": "Purchasing Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 19,
+                        "FIRST_NAME": "Louis",
+                        "LAST_NAME": "Wood",
+                        "EMAIL": "louis.wood@example.com",
+                        "PHONE": "515.127.4565",
+                        "HIRE_DATE": "15-NOV-16",
+                        "MANAGER_ID": 15,
+                        "JOB_TITLE": "Purchasing Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 20,
+                        "FIRST_NAME": "Dexter",
+                        "LAST_NAME": "Barnes",
+                        "EMAIL": "dexter.barnes@example.com",
+                        "PHONE": "515.127.4566",
+                        "HIRE_DATE": "10-AUG-16",
+                        "MANAGER_ID": 15,
+                        "JOB_TITLE": "Purchasing Clerk"
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 49,
+                "FIRST_NAME": "Isabella",
+                "LAST_NAME": "Cole",
+                "EMAIL": "isabella.cole@example.com",
+                "PHONE": "011.44.1344.619268",
+                "HIRE_DATE": "15-OCT-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Sales Manager",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 69,
+                        "FIRST_NAME": "Evelyn",
+                        "LAST_NAME": "Tucker",
+                        "EMAIL": "evelyn.tucker@example.com",
+                        "PHONE": "011.44.1343.929268",
+                        "HIRE_DATE": "11-MAR-16",
+                        "MANAGER_ID": 49,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 70,
+                        "FIRST_NAME": "Eva",
+                        "LAST_NAME": "Porter",
+                        "EMAIL": "eva.porter@example.com",
+                        "PHONE": "011.44.1343.829268",
+                        "HIRE_DATE": "23-MAR-16",
+                        "MANAGER_ID": 49,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 71,
+                        "FIRST_NAME": "Millie",
+                        "LAST_NAME": "Hunter",
+                        "EMAIL": "millie.hunter@example.com",
+                        "PHONE": "011.44.1343.729268",
+                        "HIRE_DATE": "24-JAN-16",
+                        "MANAGER_ID": 49,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 72,
+                        "FIRST_NAME": "Sofia",
+                        "LAST_NAME": "Hicks",
+                        "EMAIL": "sofia.hicks@example.com",
+                        "PHONE": "011.44.1343.629268",
+                        "HIRE_DATE": "23-FEB-16",
+                        "MANAGER_ID": 49,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 73,
+                        "FIRST_NAME": "Lucy",
+                        "LAST_NAME": "Crawford",
+                        "EMAIL": "lucy.crawford@example.com",
+                        "PHONE": "011.44.1343.529268",
+                        "HIRE_DATE": "24-MAR-16",
+                        "MANAGER_ID": 49,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 74,
+                        "FIRST_NAME": "Elsie",
+                        "LAST_NAME": "Henry",
+                        "EMAIL": "elsie.henry@example.com",
+                        "PHONE": "011.44.1343.329268",
+                        "HIRE_DATE": "21-APR-16",
+                        "MANAGER_ID": 49,
+                        "JOB_TITLE": "Sales Representative"
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 48,
+                "FIRST_NAME": "Jessica",
+                "LAST_NAME": "Woods",
+                "EMAIL": "jessica.woods@example.com",
+                "PHONE": "011.44.1344.429278",
+                "HIRE_DATE": "10-MAR-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Sales Manager",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 64,
+                        "FIRST_NAME": "Florence",
+                        "LAST_NAME": "Freeman",
+                        "EMAIL": "florence.freeman@example.com",
+                        "PHONE": "011.44.1346.229268",
+                        "HIRE_DATE": "19-MAR-16",
+                        "MANAGER_ID": 48,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 65,
+                        "FIRST_NAME": "Alice",
+                        "LAST_NAME": "Wells",
+                        "EMAIL": "alice.wells@example.com",
+                        "PHONE": "011.44.1346.329268",
+                        "HIRE_DATE": "24-JAN-16",
+                        "MANAGER_ID": 48,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 66,
+                        "FIRST_NAME": "Charlotte",
+                        "LAST_NAME": "Webb",
+                        "EMAIL": "charlotte.webb@example.com",
+                        "PHONE": "011.44.1346.529268",
+                        "HIRE_DATE": "23-FEB-16",
+                        "MANAGER_ID": 48,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 67,
+                        "FIRST_NAME": "Sienna",
+                        "LAST_NAME": "Simpson",
+                        "EMAIL": "sienna.simpson@example.com",
+                        "PHONE": "011.44.1346.629268",
+                        "HIRE_DATE": "24-MAR-16",
+                        "MANAGER_ID": 48,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 68,
+                        "FIRST_NAME": "Matilda",
+                        "LAST_NAME": "Stevens",
+                        "EMAIL": "matilda.stevens@example.com",
+                        "PHONE": "011.44.1346.729268",
+                        "HIRE_DATE": "21-APR-16",
+                        "MANAGER_ID": 48,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 63,
+                        "FIRST_NAME": "Phoebe",
+                        "LAST_NAME": "Murray",
+                        "EMAIL": "phoebe.murray@example.com",
+                        "PHONE": "011.44.1346.129268",
+                        "HIRE_DATE": "11-NOV-16",
+                        "MANAGER_ID": 48,
+                        "JOB_TITLE": "Sales Representative"
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 47,
+                "FIRST_NAME": "Ella",
+                "LAST_NAME": "Wallace",
+                "EMAIL": "ella.wallace@example.com",
+                "PHONE": "011.44.1344.467268",
+                "HIRE_DATE": "05-JAN-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Sales Manager",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 57,
+                        "FIRST_NAME": "Scarlett",
+                        "LAST_NAME": "Gibson",
+                        "EMAIL": "scarlett.gibson@example.com",
+                        "PHONE": "011.44.1345.429268",
+                        "HIRE_DATE": "30-JAN-16",
+                        "MANAGER_ID": 47,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 58,
+                        "FIRST_NAME": "Ruby",
+                        "LAST_NAME": "Mcdonald",
+                        "EMAIL": "ruby.mcdonald@example.com",
+                        "PHONE": "011.44.1345.929268",
+                        "HIRE_DATE": "04-MAR-16",
+                        "MANAGER_ID": 47,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 59,
+                        "FIRST_NAME": "Chloe",
+                        "LAST_NAME": "Cruz",
+                        "EMAIL": "chloe.cruz@example.com",
+                        "PHONE": "011.44.1345.829268",
+                        "HIRE_DATE": "01-AUG-16",
+                        "MANAGER_ID": 47,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 60,
+                        "FIRST_NAME": "Isabelle",
+                        "LAST_NAME": "Marshall",
+                        "EMAIL": "isabelle.marshall@example.com",
+                        "PHONE": "011.44.1345.729268",
+                        "HIRE_DATE": "10-MAR-16",
+                        "MANAGER_ID": 47,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 61,
+                        "FIRST_NAME": "Daisy",
+                        "LAST_NAME": "Ortiz",
+                        "EMAIL": "daisy.ortiz@example.com",
+                        "PHONE": "011.44.1345.629268",
+                        "HIRE_DATE": "15-DEC-16",
+                        "MANAGER_ID": 47,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 62,
+                        "FIRST_NAME": "Freya",
+                        "LAST_NAME": "Gomez",
+                        "EMAIL": "freya.gomez@example.com",
+                        "PHONE": "011.44.1345.529268",
+                        "HIRE_DATE": "03-NOV-16",
+                        "MANAGER_ID": 47,
+                        "JOB_TITLE": "Sales Representative"
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 46,
+                "FIRST_NAME": "Ava",
+                "LAST_NAME": "Sullivan",
+                "EMAIL": "ava.sullivan@example.com",
+                "PHONE": "011.44.1344.429268",
+                "HIRE_DATE": "01-OCT-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Sales Manager",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 56,
+                        "FIRST_NAME": "Evie",
+                        "LAST_NAME": "Harrison",
+                        "EMAIL": "evie.harrison@example.com",
+                        "PHONE": "011.44.1344.486508",
+                        "HIRE_DATE": "23-NOV-16",
+                        "MANAGER_ID": 46,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 55,
+                        "FIRST_NAME": "Grace",
+                        "LAST_NAME": "Ellis",
+                        "EMAIL": "grace.ellis@example.com",
+                        "PHONE": "011.44.1344.987668",
+                        "HIRE_DATE": "09-DEC-16",
+                        "MANAGER_ID": 46,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 54,
+                        "FIRST_NAME": "Lily",
+                        "LAST_NAME": "Fisher",
+                        "EMAIL": "lily.fisher@example.com",
+                        "PHONE": "011.44.1344.498718",
+                        "HIRE_DATE": "30-MAR-16",
+                        "MANAGER_ID": 46,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 53,
+                        "FIRST_NAME": "Sophia",
+                        "LAST_NAME": "Reynolds",
+                        "EMAIL": "sophia.reynolds@example.com",
+                        "PHONE": "011.44.1344.478968",
+                        "HIRE_DATE": "20-AUG-16",
+                        "MANAGER_ID": 46,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 52,
+                        "FIRST_NAME": "Sophie",
+                        "LAST_NAME": "Owens",
+                        "EMAIL": "sophie.owens@example.com",
+                        "PHONE": "011.44.1344.345268",
+                        "HIRE_DATE": "24-MAR-16",
+                        "MANAGER_ID": 46,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 51,
+                        "FIRST_NAME": "Poppy",
+                        "LAST_NAME": "Jordan",
+                        "EMAIL": "poppy.jordan@example.com",
+                        "PHONE": "011.44.1344.129268",
+                        "HIRE_DATE": "30-JAN-16",
+                        "MANAGER_ID": 46,
+                        "JOB_TITLE": "Sales Representative"
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 50,
+                "FIRST_NAME": "Mia",
+                "LAST_NAME": "West",
+                "EMAIL": "mia.west@example.com",
+                "PHONE": "011.44.1344.429018",
+                "HIRE_DATE": "29-JAN-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Sales Manager",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 80,
+                        "FIRST_NAME": "Elizabeth",
+                        "LAST_NAME": "Dixon",
+                        "EMAIL": "elizabeth.dixon@example.com",
+                        "PHONE": "011.44.1644.429262",
+                        "HIRE_DATE": "04-JAN-16",
+                        "MANAGER_ID": 50,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 75,
+                        "FIRST_NAME": "Imogen",
+                        "LAST_NAME": "Boyd",
+                        "EMAIL": "imogen.boyd@example.com",
+                        "PHONE": "011.44.1644.429267",
+                        "HIRE_DATE": "11-MAY-16",
+                        "MANAGER_ID": 50,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 76,
+                        "FIRST_NAME": "Layla",
+                        "LAST_NAME": "Mason",
+                        "EMAIL": "layla.mason@example.com",
+                        "PHONE": "011.44.1644.429266",
+                        "HIRE_DATE": "19-MAR-16",
+                        "MANAGER_ID": 50,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 77,
+                        "FIRST_NAME": "Rosie",
+                        "LAST_NAME": "Morales",
+                        "EMAIL": "rosie.morales@example.com",
+                        "PHONE": "011.44.1644.429265",
+                        "HIRE_DATE": "24-MAR-16",
+                        "MANAGER_ID": 50,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 78,
+                        "FIRST_NAME": "Maya",
+                        "LAST_NAME": "Kennedy",
+                        "EMAIL": "maya.kennedy@example.com",
+                        "PHONE": "011.44.1644.429264",
+                        "HIRE_DATE": "23-APR-16",
+                        "MANAGER_ID": 50,
+                        "JOB_TITLE": "Sales Representative"
+                    },
+                    {
+                        "EMPLOYEE_ID": 79,
+                        "FIRST_NAME": "Esme",
+                        "LAST_NAME": "Warren",
+                        "EMAIL": "esme.warren@example.com",
+                        "PHONE": "011.44.1644.429263",
+                        "HIRE_DATE": "24-MAY-16",
+                        "MANAGER_ID": 50,
+                        "JOB_TITLE": "Sales Representative"
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 25,
+                "FIRST_NAME": "Ronnie",
+                "LAST_NAME": "Perry",
+                "EMAIL": "ronnie.perry@example.com",
+                "PHONE": "650.123.5234",
+                "HIRE_DATE": "16-NOV-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Stock Manager",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 97,
+                        "FIRST_NAME": "Harriet",
+                        "LAST_NAME": "Ferguson",
+                        "EMAIL": "harriet.ferguson@example.com",
+                        "PHONE": "650.507.9811",
+                        "HIRE_DATE": "24-APR-16",
+                        "MANAGER_ID": 25,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 98,
+                        "FIRST_NAME": "Amber",
+                        "LAST_NAME": "Rose",
+                        "EMAIL": "amber.rose@example.com",
+                        "PHONE": "650.507.9822",
+                        "HIRE_DATE": "23-MAY-16",
+                        "MANAGER_ID": 25,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 99,
+                        "FIRST_NAME": "Bella",
+                        "LAST_NAME": "Stone",
+                        "EMAIL": "bella.stone@example.com",
+                        "PHONE": "650.507.9833",
+                        "HIRE_DATE": "21-JUN-16",
+                        "MANAGER_ID": 25,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 100,
+                        "FIRST_NAME": "Thea",
+                        "LAST_NAME": "Hawkins",
+                        "EMAIL": "thea.hawkins@example.com",
+                        "PHONE": "650.507.9844",
+                        "HIRE_DATE": "13-JAN-16",
+                        "MANAGER_ID": 25,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 44,
+                        "FIRST_NAME": "Emily",
+                        "LAST_NAME": "Hamilton",
+                        "EMAIL": "emily.hamilton@example.com",
+                        "PHONE": "650.121.2874",
+                        "HIRE_DATE": "15-MAR-16",
+                        "MANAGER_ID": 25,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 43,
+                        "FIRST_NAME": "Olivia",
+                        "LAST_NAME": "Ford",
+                        "EMAIL": "olivia.ford@example.com",
+                        "PHONE": "650.121.2994",
+                        "HIRE_DATE": "29-JAN-16",
+                        "MANAGER_ID": 25,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 42,
+                        "FIRST_NAME": "Amelia",
+                        "LAST_NAME": "Myers",
+                        "EMAIL": "amelia.myers@example.com",
+                        "PHONE": "650.121.8009",
+                        "HIRE_DATE": "17-OCT-16",
+                        "MANAGER_ID": 25,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 45,
+                        "FIRST_NAME": "Isla",
+                        "LAST_NAME": "Graham",
+                        "EMAIL": "isla.graham@example.com",
+                        "PHONE": "650.121.2004",
+                        "HIRE_DATE": "09-JUL-16",
+                        "MANAGER_ID": 25,
+                        "JOB_TITLE": "Stock Clerk"
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 24,
+                "FIRST_NAME": "Callum",
+                "LAST_NAME": "Jenkins",
+                "EMAIL": "callum.jenkins@example.com",
+                "PHONE": "650.123.4234",
+                "HIRE_DATE": "10-OCT-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Stock Manager",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 93,
+                        "FIRST_NAME": "Georgia",
+                        "LAST_NAME": "Mills",
+                        "EMAIL": "georgia.mills@example.com",
+                        "PHONE": "650.501.1876",
+                        "HIRE_DATE": "04-FEB-16",
+                        "MANAGER_ID": 24,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 94,
+                        "FIRST_NAME": "Maisie",
+                        "LAST_NAME": "Nichols",
+                        "EMAIL": "maisie.nichols@example.com",
+                        "PHONE": "650.501.2876",
+                        "HIRE_DATE": "03-MAR-16",
+                        "MANAGER_ID": 24,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 95,
+                        "FIRST_NAME": "Eleanor",
+                        "LAST_NAME": "Grant",
+                        "EMAIL": "eleanor.grant@example.com",
+                        "PHONE": "650.501.3876",
+                        "HIRE_DATE": "01-JUL-16",
+                        "MANAGER_ID": 24,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 96,
+                        "FIRST_NAME": "Hannah",
+                        "LAST_NAME": "Knight",
+                        "EMAIL": "hannah.knight@example.com",
+                        "PHONE": "650.501.4876",
+                        "HIRE_DATE": "17-MAR-16",
+                        "MANAGER_ID": 24,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 41,
+                        "FIRST_NAME": "Connor",
+                        "LAST_NAME": "Hayes",
+                        "EMAIL": "connor.hayes@example.com",
+                        "PHONE": "650.121.1834",
+                        "HIRE_DATE": "06-APR-16",
+                        "MANAGER_ID": 24,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 38,
+                        "FIRST_NAME": "Sonny",
+                        "LAST_NAME": "Russell",
+                        "EMAIL": "sonny.russell@example.com",
+                        "PHONE": "650.121.1234",
+                        "HIRE_DATE": "14-JUL-16",
+                        "MANAGER_ID": 24,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 39,
+                        "FIRST_NAME": "Kian",
+                        "LAST_NAME": "Griffin",
+                        "EMAIL": "kian.griffin@example.com",
+                        "PHONE": "650.121.2034",
+                        "HIRE_DATE": "26-OCT-16",
+                        "MANAGER_ID": 24,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 40,
+                        "FIRST_NAME": "Caleb",
+                        "LAST_NAME": "Diaz",
+                        "EMAIL": "caleb.diaz@example.com",
+                        "PHONE": "650.121.2019",
+                        "HIRE_DATE": "12-FEB-16",
+                        "MANAGER_ID": 24,
+                        "JOB_TITLE": "Stock Clerk"
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 23,
+                "FIRST_NAME": "Jackson",
+                "LAST_NAME": "Coleman",
+                "EMAIL": "jackson.coleman@example.com",
+                "PHONE": "650.123.3234",
+                "HIRE_DATE": "01-MAY-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Stock Manager",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 89,
+                        "FIRST_NAME": "Jasmine",
+                        "LAST_NAME": "Hunt",
+                        "EMAIL": "jasmine.hunt@example.com",
+                        "PHONE": "650.505.1876",
+                        "HIRE_DATE": "14-JUN-16",
+                        "MANAGER_ID": 23,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 90,
+                        "FIRST_NAME": "Eliza",
+                        "LAST_NAME": "Black",
+                        "EMAIL": "eliza.black@example.com",
+                        "PHONE": "650.505.2876",
+                        "HIRE_DATE": "13-AUG-16",
+                        "MANAGER_ID": 23,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 91,
+                        "FIRST_NAME": "Lilly",
+                        "LAST_NAME": "Daniels",
+                        "EMAIL": "lilly.daniels@example.com",
+                        "PHONE": "650.505.3876",
+                        "HIRE_DATE": "11-JUL-16",
+                        "MANAGER_ID": 23,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 92,
+                        "FIRST_NAME": "Abigail",
+                        "LAST_NAME": "Palmer",
+                        "EMAIL": "abigail.palmer@example.com",
+                        "PHONE": "650.505.4876",
+                        "HIRE_DATE": "19-DEC-16",
+                        "MANAGER_ID": 23,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 34,
+                        "FIRST_NAME": "Seth",
+                        "LAST_NAME": "Foster",
+                        "EMAIL": "seth.foster@example.com",
+                        "PHONE": "650.127.1934",
+                        "HIRE_DATE": "14-JUN-16",
+                        "MANAGER_ID": 23,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 35,
+                        "FIRST_NAME": "Carter",
+                        "LAST_NAME": "Gonzales",
+                        "EMAIL": "carter.gonzales@example.com",
+                        "PHONE": "650.127.1834",
+                        "HIRE_DATE": "26-AUG-16",
+                        "MANAGER_ID": 23,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 36,
+                        "FIRST_NAME": "Felix",
+                        "LAST_NAME": "Bryant",
+                        "EMAIL": "felix.bryant@example.com",
+                        "PHONE": "650.127.1734",
+                        "HIRE_DATE": "12-DEC-16",
+                        "MANAGER_ID": 23,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 37,
+                        "FIRST_NAME": "Ibrahim",
+                        "LAST_NAME": "Alexander",
+                        "EMAIL": "ibrahim.alexander@example.com",
+                        "PHONE": "650.127.1634",
+                        "HIRE_DATE": "06-FEB-16",
+                        "MANAGER_ID": 23,
+                        "JOB_TITLE": "Stock Clerk"
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 22,
+                "FIRST_NAME": "Liam",
+                "LAST_NAME": "Henderson",
+                "EMAIL": "liam.henderson@example.com",
+                "PHONE": "650.123.2234",
+                "HIRE_DATE": "10-APR-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Stock Manager",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 85,
+                        "FIRST_NAME": "Holly",
+                        "LAST_NAME": "Shaw",
+                        "EMAIL": "holly.shaw@example.com",
+                        "PHONE": "650.509.1876",
+                        "HIRE_DATE": "27-JAN-16",
+                        "MANAGER_ID": 22,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 86,
+                        "FIRST_NAME": "Emilia",
+                        "LAST_NAME": "Holmes",
+                        "EMAIL": "emilia.holmes@example.com",
+                        "PHONE": "650.509.2876",
+                        "HIRE_DATE": "20-FEB-16",
+                        "MANAGER_ID": 22,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 87,
+                        "FIRST_NAME": "Molly",
+                        "LAST_NAME": "Rice",
+                        "EMAIL": "molly.rice@example.com",
+                        "PHONE": "650.509.3876",
+                        "HIRE_DATE": "24-JUN-16",
+                        "MANAGER_ID": 22,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 88,
+                        "FIRST_NAME": "Ellie",
+                        "LAST_NAME": "Robertson",
+                        "EMAIL": "ellie.robertson@example.com",
+                        "PHONE": "650.509.4876",
+                        "HIRE_DATE": "07-FEB-16",
+                        "MANAGER_ID": 22,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 33,
+                        "FIRST_NAME": "Reggie",
+                        "LAST_NAME": "Simmons",
+                        "EMAIL": "reggie.simmons@example.com",
+                        "PHONE": "650.124.8234",
+                        "HIRE_DATE": "10-APR-16",
+                        "MANAGER_ID": 22,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 30,
+                        "FIRST_NAME": "Austin",
+                        "LAST_NAME": "Flores",
+                        "EMAIL": "austin.flores@example.com",
+                        "PHONE": "650.124.5234",
+                        "HIRE_DATE": "20-AUG-16",
+                        "MANAGER_ID": 22,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 31,
+                        "FIRST_NAME": "Ellis",
+                        "LAST_NAME": "Washington",
+                        "EMAIL": "ellis.washington@example.com",
+                        "PHONE": "650.124.6234",
+                        "HIRE_DATE": "30-OCT-16",
+                        "MANAGER_ID": 22,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 32,
+                        "FIRST_NAME": "Jamie",
+                        "LAST_NAME": "Butler",
+                        "EMAIL": "jamie.butler@example.com",
+                        "PHONE": "650.124.7234",
+                        "HIRE_DATE": "16-FEB-16",
+                        "MANAGER_ID": 22,
+                        "JOB_TITLE": "Stock Clerk"
+                    }
+                ]
+            },
+            {
+                "EMPLOYEE_ID": 21,
+                "FIRST_NAME": "Jaxon",
+                "LAST_NAME": "Ross",
+                "EMAIL": "jaxon.ross@example.com",
+                "PHONE": "650.123.1234",
+                "HIRE_DATE": "18-JUL-16",
+                "MANAGER_ID": 1,
+                "JOB_TITLE": "Stock Manager",
+                "children": [
+                    {
+                        "EMPLOYEE_ID": 81,
+                        "FIRST_NAME": "Lola",
+                        "LAST_NAME": "Ramos",
+                        "EMAIL": "lola.ramos@example.com",
+                        "PHONE": "650.507.9876",
+                        "HIRE_DATE": "24-JAN-16",
+                        "MANAGER_ID": 21,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 82,
+                        "FIRST_NAME": "Willow",
+                        "LAST_NAME": "Reyes",
+                        "EMAIL": "willow.reyes@example.com",
+                        "PHONE": "650.507.9877",
+                        "HIRE_DATE": "23-FEB-16",
+                        "MANAGER_ID": 21,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 83,
+                        "FIRST_NAME": "Ivy",
+                        "LAST_NAME": "Burns",
+                        "EMAIL": "ivy.burns@example.com",
+                        "PHONE": "650.507.9878",
+                        "HIRE_DATE": "21-JUN-16",
+                        "MANAGER_ID": 21,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 84,
+                        "FIRST_NAME": "Erin",
+                        "LAST_NAME": "Gordon",
+                        "EMAIL": "erin.gordon@example.com",
+                        "PHONE": "650.507.9879",
+                        "HIRE_DATE": "03-FEB-16",
+                        "MANAGER_ID": 21,
+                        "JOB_TITLE": "Shipping Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 26,
+                        "FIRST_NAME": "Leon",
+                        "LAST_NAME": "Powell",
+                        "EMAIL": "leon.powell@example.com",
+                        "PHONE": "650.124.1214",
+                        "HIRE_DATE": "16-JUL-16",
+                        "MANAGER_ID": 21,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 27,
+                        "FIRST_NAME": "Kai",
+                        "LAST_NAME": "Long",
+                        "EMAIL": "kai.long@example.com",
+                        "PHONE": "650.124.1224",
+                        "HIRE_DATE": "28-SEP-16",
+                        "MANAGER_ID": 21,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 28,
+                        "FIRST_NAME": "Aaron",
+                        "LAST_NAME": "Patterson",
+                        "EMAIL": "aaron.patterson@example.com",
+                        "PHONE": "650.124.1334",
+                        "HIRE_DATE": "14-JAN-16",
+                        "MANAGER_ID": 21,
+                        "JOB_TITLE": "Stock Clerk"
+                    },
+                    {
+                        "EMPLOYEE_ID": 29,
+                        "FIRST_NAME": "Roman",
+                        "LAST_NAME": "Hughes",
+                        "EMAIL": "roman.hughes@example.com",
+                        "PHONE": "650.124.1434",
+                        "HIRE_DATE": "08-MAR-16",
+                        "MANAGER_ID": 21,
+                        "JOB_TITLE": "Stock Clerk"
+                    }
+                ]
+            }
+        ]
+    }
+]

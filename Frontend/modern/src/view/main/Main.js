@@ -9,7 +9,11 @@ Ext.define('ChallengeApp.view.main.Main', {
 
     requires: [
         'Ext.MessageBox',
-        'Ext.layout.Fit'
+        'Ext.layout.Fit',
+        'ChallengeApp.view.main.MainController',
+        'ChallengeApp.view.main.MainModel',
+        'ChallengeApp.view.main.List',
+        'ChallengeApp.view.Home'
     ],
 
     controller: 'main',
@@ -30,20 +34,23 @@ Ext.define('ChallengeApp.view.main.Main', {
             iconCls: 'x-fa fa-home',
             layout: 'fit',
             // The following grid shares a store with the classic version's grid as well!
-            bind: {
-                html: '{loremIpsum}'
-            }
+            items: [{
+                xtype: 'Home',
+            }]
+
         }, {
             title: 'Users',
             iconCls: 'x-fa fa-user',
             items: [{
-                xtype: 'button'
+                xtype: 'mainlist',
             }]
+
         }, {
-            title: 'Groups',
+            title: 'Form',
             iconCls: 'x-fa fa-users',
+
             items: [{
-                xtype: 'button'
+                xtype: 'mainForm'
             }]
         }, {
             title: 'Settings',

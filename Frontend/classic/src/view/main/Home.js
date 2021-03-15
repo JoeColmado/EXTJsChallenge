@@ -5,9 +5,9 @@ Ext.define('ChallengeApp.view.Home', {
     title: 'Home',
     bind: {
         html: `
-        <li>Preparation for Coding Challenge</li>
-        <p>Continious Integration Pipeline for ExtJS</p>
-        <p>Firebase </p>
+        <h1>Dear Virtimo Team</h1>
+        <p>You can find the result of the Coding Challenge
+        in the Tab Users I added the selection</p>
         `
     }
 

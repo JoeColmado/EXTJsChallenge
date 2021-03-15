@@ -25,14 +25,20 @@ Ext.define('ChallengeApp.view.main.FormController', {
     submitForm:function (v,values) {
 
         Ext.Ajax.request({
-            url: 'localhost:8080',
+            url: 'http://localhost:8080/NewUser',
+            headers:
+            {
+                'Content-Type': 'application/json'
+            },
             success: function (response, opts) {
                 var obj = Ext.decode(response.responseText);
                 console.dir(obj);
+                alert('successful Connection to  localhost');
             },
 
             failure: function (response, opts) {
                 console.log('server-side failure with status code ' + response.status);
+                alert(' Connection failed to  localhost')
             }
         })
     }

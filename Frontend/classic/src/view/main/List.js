@@ -4,27 +4,27 @@
 Ext.define('ChallengeApp.view.main.List', {
     extend: 'Ext.grid.Panel',
     xtype: 'mainlist',
-
-
-    title: 'Data display',
+    layout: 'fit',
+    width: 500,
+    height: 400,
+    title: 'Mitarbeiter',
 
     store: {
-        type: 'dbApi'
+        type: 'employee'
     },
-    // controller: 'base',
+
+    scrollable: true,
+
     columns: [
-        { text: 'Name', dataIndex: 'name', flex: .5, filter:{ type: 'string'} },
-        { text: 'Email', dataIndex: 'email', flex: 1 },
-        { text: 'User', dataIndex: 'username', flex: 1 },
-        { text: 'ZipCode', dataIndex: 'zipcode', flex: 1 }
+        { text: 'Name', dataIndex: 'FIRST_NAME' },
+        { text: 'Erstellungsdatum', dataIndex: 'HIRE_DATE', renderer: Ext.util.Format.dateRenderer('d.m.Y')},
+        { text: 'EMAIL', dataIndex: 'EMAIL' },
+        { text: 'Job', dataIndex: 'JOB_TITLE' },
     ],
 
 
-    // plugins:'gridfilters',
     scrollable: true,
-    // listeners: {
-    //     select: 'onItemSelected'
-    // }
+
     id: 'homeGrid',
     selModel: {
         injectCheckbox: 'first',

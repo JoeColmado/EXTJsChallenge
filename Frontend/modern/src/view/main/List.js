@@ -20,7 +20,6 @@ Ext.define('ChallengeApp.view.main.List', {
     ],
 
 
-    plugins:'gridfilters',
     scrollable: true,
     // listeners: {
     //     select: 'onItemSelected'
